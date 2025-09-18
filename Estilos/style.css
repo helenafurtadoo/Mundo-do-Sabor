@@ -65,8 +65,8 @@ body {
 
 /* Menu */
 nav {
-  background-color: #333;
-  padding: 10px;
+  background-color: #ffffff;
+  padding: 8px;
   font-family: 'Montserrat';
 }
 
@@ -79,7 +79,7 @@ nav ul {
 
 nav ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(12, 12, 12);
   font-weight: bold;
 }
 
@@ -89,11 +89,13 @@ nav ul li a:hover {
 
 /* Cabeçalhos */
 h1, h2, h3 {
+  color:#ffffff;
   margin: 20px 0 10px;
   text-align: center;
 }
 
 p {
+  color:#fdfdfd;
   margin: 10px 0;
   padding: 0 15px;
   text-align: justify;
@@ -109,6 +111,7 @@ img, video {
 
 /* Listas */
 ul {
+  color:#ffffff;
   margin: 15px;
   padding-left: 25px;
 }
@@ -159,40 +162,74 @@ button:hover {
 /* Rodapé */
 footer {
   font-family: 'Montserrat-Bold';
-  background-color: #333;
-  color: white;
+  background-color: #5f5858;
+  color: rgb(0, 0, 0);
   padding: 20px;
   margin-top: 40px;
   text-align: center;
 }
 
 footer a {
-  color: white;
-  margin: 0 10px;
+  color: rgb(0, 0, 0);
+  margin: 10px;
   text-decoration: none;
 }
 
 footer a:hover {
   color: #ff6600;
 }
-.voltar-topo {
-  display: block;
+
+.direitos {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 0px;
   text-align: center;
-  margin-top: 15px;
-  color: white;
-  text-decoration: none;
+}
+
+
+.voltar-topo {
+  color:#ffffff;
+  background-color: #3d1919;
+  width:100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
 }
 .voltar-topo:hover {
   color: #ff6600;
 }
 
+.redes-sociais {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: auto;
+  color: rgb(233, 233, 233);
+  text-decoration: none;
+}
+
+.redes-sociais:hover {
+  color:#ff6600;
+}
 
 /*index*/
+#bodyindex {
+  background-color: #b41010;
+}
+
+.boas-vindas{
+    font-family: 'Dancing Script';
+}
+
 .h1-index{
-   font-family: 'Dancing Script';
+  background-color: #400101;
+  font-family: 'Dancing Script';
 }
 
 /*cardapio*/
+#bodycardapio {
+  background-color: #BF4904;
+}
 .h1-cardapio {
   font-family: 'Dancing Script';
 }
@@ -273,6 +310,9 @@ footer a:hover {
 
 
 /*favoritos*/
+#bodyfavoritos {
+  background-color:#F28E13
+}
 .h1-favoritos {
   font-family: 'Dancing Script';
 }
@@ -309,6 +349,9 @@ footer a:hover {
 }
 
 /*Contato/pedidos*/
+#bodycontatopedido {
+  background-color: #818C2E;
+}
 .h1-contato {
   font-family: 'Dancing Script';
 }
@@ -342,6 +385,11 @@ footer a:hover {
 }
 
 /*Sobre*/
+#bodysobre {
+  background-color:#324001;
+}
+
+
 .h1-sobre {
   font-family: 'Dancing Script';
 }
@@ -349,4 +397,34 @@ footer a:hover {
 
 .p-sobre {
   font-family: 'Roboto-Regular';
+}
+
+.h1-missao {
+  font-family: 'Dancing Script';
+}
+
+.p-missao {
+  font-family: 'Roboto-Regular';
+
+}
+
+.h1-visao {
+  font-family: 'Dancing Script';
+}
+
+.p-visao {
+  font-family: 'Roboto-Regular';
+
+}
+
+.h1-parcerias {
+  font-family: 'Dancing Script'; 
+}
+
+.lista-parcerias {
+  font-family: 'Roboto-Regular';
+}
+
+.h3-parcerias {
+  font-family: 'Dancing Script'; 
 }
