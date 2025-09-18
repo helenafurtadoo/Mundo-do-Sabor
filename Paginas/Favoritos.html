@@ -6,52 +6,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Favoritos da casa</title>
     <link rel="icon" href="imagens/favicon.png" type="image/png">
-    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="/Estilos/style.css">
+    <div id="topo"></div>
 </head>
 
 <body>
-    <h1>Os mais pedidos!</h1>
-    <h2>Fatias de carne Suína</h2>
-    <p>Fatias de carne de porco, acompanhadas de flores comestíveis. Serve até 1 pessoa</p>
+    <!--menu-->
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../Paginas/Cardapio.html">Cardapio</a></li>
+            <li><a href="../Paginas/Favoritos.html">Favoritos da Casa</a></li>
+            <li><a href="../Paginas/ContatoPedido.html">Contato/Pedido</a></li>
+            <li><a href="../Paginas/Sobre.html">Sobre</a></li>
+        </ul>
+    </nav>
+    <h1 class="h1-favoritos">Os mais pedidos!</h1>
+    <h2 class="f-carne-suina">Fatias de carne Suína</h2>
+    <p class="p-carne-suina">Fatias de carne de porco, acompanhadas de flores comestíveis. Serve até 1 pessoa</p>
     <p>R$31,00</p>
     <video widht="100" height="200" autoplay loop muted>
         <source src="/Videos/carne-favoritos.mp4" type="video/mp4">
     </video>
-    <h2>Carne Suína e salada de aspargus</h2>
-    <p>Fatias de carne suína, acompanhada de uma salada de aspargus e tomates. Serve até 1 pessoa</p>
+    <h2 class="s-carne-suina">Carne Suína e salada de aspargus</h2>
+    <p class="p-s-carne-suina">Fatias de carne suína, acompanhada de uma salada de aspargus e tomates. Serve até 1
+        pessoa</p>
     <p>R$45,00</p>
     <!--lista (4)-->
     <h2>Adicionais</h2>
     <ul class="lista-adcionais-carne">
-        <li><p>Arroz branco</p></li>
-        
-        <li><p>Purê de batata</p></li>
-       
-        <li><p>Farofa caseira</p></li>
+        <li>
+            <p>Arroz branco</p>
+        </li>
+
+        <li>
+            <p>Purê de batata</p>
+        </li>
+
+        <li>
+            <p>Farofa caseira</p>
+        </li>
     </ul>
     <img src="/Imagens/aspargus-favoritos.jpg" alt="carne suina e aspargus" width="400" height="400"
         title="carne suina e aspargus">
 
-    <h2><strong>Macarrão ao molho pesto</h2>
-    <p>Macarrão ao molho pesto, tomate cereja e uma salada de alfaces. Serve até 1 pessoa.</p>
+    <h2 class="m-pesto"><strong>Macarrão ao molho pesto</h2>
+    <p class="p-m-pesto">Macarrão ao molho pesto, tomate cereja e uma salada de alfaces. Serve até 1 pessoa.</p>
     <p>R$50,00</p>
     <img src="/Imagens/macarrao-favoritos.jpg" alt=",acarrao ao molho pesto" width="400" height="400"
         title="macarrao ao molho pesto">
 
-    <h2>Parfait de frutas com iogurte </h2>
-    <p>Parfait de frutas com iogurte com camadas de pedaços de tangerina e morango, seguido por uma camada de creme branco, com frutas picadas e granolas na parte superior. Serve até 1 pessoa</p>
+    <h2 class="sobremesa">Parfait de frutas com iogurte </h2>
+    <p class="p-sobremesa">Parfait de frutas com iogurte com camadas de pedaços de tangerina e morango, seguido por uma
+        camada de creme
+        branco, com frutas picadas e granolas na parte superior. Serve até 1 pessoa</p>
     <p>R$21,90</p>
-    <!--lista(5)-->
+    <!--lista (5)-->
     <h2>Sabores:</h2>
     <ul class="lista-sabores-sobremesa">
-        <li><p>Morango</p></li>
-        
-        <li><p>Tangerina com Morango</p></li>
-        
-        <li><p>Limão Siciliano</p></li>
+        <li>
+            <p>Morango</p>
+        </li>
+
+        <li>
+            <p>Tangerina com Morango</p>
+        </li>
+
+        <li>
+            <p>Limão Siciliano</p>
+        </li>
     </ul>
     <img src="/Imagens/sobremesa-favoritos.jpg" alt="sobremesa-favoritos" width="400" height="400"
         title="sobremesa-favoritos">
+    <!--rodape-->
+    <footer class="rodape">
 
-    
+        <!--contato-->
+        <div class="contato">
+            <p>📞 Telefone: (61) 99999-9999</p>
+            <p>✉️ E-mail: contato@mundoDosabor.com</p>
+            <p>🏠 Endereço: Rua do Sabor, 123, Brasília - DF</p>
+        </div>
+
+        <!--direitos autorais-->
+        <div class="direitos">
+            <p> Mundo do Sabor | Todos os direitos reservados | Copyright&copy; 2025</p>
+        </div>
+
+        <!--redes sociais / links clicaveis-->
+        <div class="redes-sociais">
+            <a href="#">Instagram</a>
+            <a href="#">Whatsapp</a>
+            <a href="#">Faceboock</a>
+            <a href="#">Youtube</a><img src="/icon/youtube.svg">
+            <!--depois arrumar para icones:-->
+            <!-- <a href="https://www.instagram.com" target="_blank">
+    <img src="imagens/instagram.svg" alt="Instagram">
+    botar o menu embaixo das paginas tambem-->
+            <a href="#topo" class="voltar-topo">⬆️ Voltar ao topo</a>
+
+        </div>
+    </footer>
+
+
 </body>

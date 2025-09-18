@@ -1,0 +1,352 @@
+/*FONTES*/
+
+/*roboto*/
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Estilos/Fontes/Roboto/static/Roboto-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Roboto';
+  src: url('../Estilos/Fontes/Roboto/static/Roboto-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Lobster */
+@font-face {
+  font-family: 'Lobster';
+  src: url('../Estilos/Fontes/Lobster/Lobster-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Montserrat */
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Estilos/Fontes/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../Estilos/Fontes/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* Open Sans */
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Estilos/Fontes/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Open Sans';
+  src: url('../Estilos/Fontes/Open_Sans/static/OpenSans-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Reset simples */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Menu */
+nav {
+  background-color: #333;
+  padding: 10px;
+  font-family: 'Montserrat';
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #ff6600; /* depois trocamos pela cor da paleta */
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+  margin: 20px 0 10px;
+  text-align: center;
+}
+
+p {
+  margin: 10px 0;
+  padding: 0 15px;
+  text-align: justify;
+}
+
+/* Imagens e vídeos */
+img, video {
+  display: block;
+  margin: 20px auto;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
+/* Listas */
+ul {
+  margin: 15px;
+  padding-left: 25px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+/* Formulário */
+form {
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+fieldset {
+  border: 1px solid #aaa;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 8px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff6600;
+}
+
+/* Rodapé */
+footer {
+  font-family: 'Montserrat-Bold';
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+}
+
+footer a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #ff6600;
+}
+.voltar-topo {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+  text-decoration: none;
+}
+.voltar-topo:hover {
+  color: #ff6600;
+}
+
+
+/*index*/
+.h1-index{
+   font-family: 'Dancing Script';
+}
+
+/*cardapio*/
+.h1-cardapio {
+  font-family: 'Dancing Script';
+}
+.hamburgueres {
+  font-family:'Dancing Script', cursive;
+}
+
+.h-classico{
+  font-family: 'Lobster';
+}
+
+.p-h-classico {
+  font-family: 'Roboto-Regular';
+}
+
+.h-duplo{
+  font-family: 'Lobster';
+}
+.p-h-duplo {
+  font-family: 'Roboto-Regular';
+}
+
+.massas {
+  font-family:'Dancing Script', cursive;
+}
+
+.ravioli{
+  font-family: 'Lobster';
+}
+
+.p-ravioli {
+  font-family: 'Roboto-Regular';
+}
+.m-bolonhesa {
+  font-family: 'Lobster';
+}
+
+.p-m-bolonhesa {
+  font-family: 'Roboto-Regular';
+}
+.pizzas{
+  font-family:'Dancing Script', cursive;
+}
+
+.pizza-queijo {
+  font-family: 'Lobster';
+}
+
+.p-pizza-queijo {
+  font-family: 'Roboto-Regular';
+}
+.pizza-marguerita {
+  font-family: 'Lobster';
+}
+
+.p-pizza-marguerita {
+  font-family: 'Roboto-Regular';
+}
+.bebidas {
+  font-family: 'Lobster';
+}
+
+.lista-bebidas {
+  font-family: 'Roboto-Regular';
+
+}
+
+.drink {
+  font-family: 'Lobster';
+}
+
+.p-drink {
+  font-family: 'Roboto-Regular';
+}
+.cafe {
+  font-family: 'Lobster';
+}
+
+
+/*favoritos*/
+.h1-favoritos {
+  font-family: 'Dancing Script';
+}
+.f-carne-suina {
+  font-family: 'Lobster';
+}
+
+.p-carne-suina {
+  font-family: 'Roboto-Regular';
+}
+
+.s-carne-suina {
+  font-family: 'Lobster';
+}
+
+.p-s-carne-suina {
+  font-family: 'Roboto-Regular';
+}
+
+.m-pesto {
+  font-family: 'Lobster';
+}
+
+.p-m-pesto {
+  font-family: 'Roboto-Regular';
+}
+
+.sobremesa {
+  font-family: 'Lobster';
+}
+
+.p-sobremesa {
+  font-family: 'Roboto-Regular';
+}
+
+/*Contato/pedidos*/
+.h1-contato {
+  font-family: 'Dancing Script';
+}
+
+.p-informacoes {
+  font-family: 'Roboto-Regular';
+}
+
+.h2-instrucoes-pedido {
+  font-family: 'Dancing Script';
+}
+
+.p-instrucoes-pedido {
+  font-family: 'Roboto-Regular';
+}
+
+.h2-horario-funcionamento {
+  font-family: 'Dancing Script';
+}
+
+.p-horario-funcionamento {
+  font-family: 'Roboto-Regular';
+}
+
+.h1-endereco {
+  font-family: 'Dancing Script';
+}
+
+.h1-entrar-contato {
+  font-family: 'Dancing Script';
+}
+
+/*Sobre*/
+.h1-sobre {
+  font-family: 'Dancing Script';
+}
+
+
+.p-sobre {
+  font-family: 'Roboto-Regular';
+}
